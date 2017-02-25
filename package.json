@@ -1,7 +1,7 @@
 {
   "name": "env-url",
-  "version": "0.0.1",
-  "description": "Executes a command using the envs in the provided env file",
+  "version": "0.0.2",
+  "description": "NodeJS utility to get environment variables from a URL",
   "main": "lib/index.js",
   "bin": {
     "env-cmd": "bin/env-url.js"

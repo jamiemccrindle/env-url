@@ -28,8 +28,8 @@ nested json e.g.:
 
 becomes:
 
-TEST=value
-NESTED_TEST_TEST=1
+    TEST=value
+    NESTED_TEST_TEST=1
 
 ## Why
 
