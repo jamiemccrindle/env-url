@@ -1,0 +1,47 @@
+{
+  "name": "env-cmd",
+  "version": "4.0.0",
+  "description": "Executes a command using the envs in the provided env file",
+  "main": "lib/index.js",
+  "bin": {
+    "env-cmd": "bin/env-url.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jamiemccrindle/env-url.git"
+  },
+  "keywords": [
+    "env",
+    "cli",
+    "command",
+    "exec",
+    "environment",
+    "run"
+  ],
+  "author": "Jamie McCrindle",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamiemccrindle/env-url/issues"
+  },
+  "homepage": "https://github.com/jamiemccrindle/env-url#readme",
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "@types/yargs": "^6.6.0",
+    "cross-spawn": "^5.0.1",
+    "sync-request": "^4.0.1"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "coveralls": "^2.11.12",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.2",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.5",
+    "standard": "^8.6.0",
+    "typescript": "^2.2.1"
+  }
+}
